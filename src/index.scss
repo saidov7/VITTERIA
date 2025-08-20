@@ -1,0 +1,911 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: "Atkinson Hyperlegible Next", serif;
+
+}
+.container1{
+    max-width: 1519px;
+    margin: 0 auto;
+
+}
+.container{
+    max-width: 1419px;
+    margin: 0 auto;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.d-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.d-flexs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.d-colm{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.d-colm1{
+    display: flex;
+    flex-direction: column;
+}
+.gap{
+    gap: 32px;
+}
+.gap1{
+    gap: 15px;
+}
+.gap2{
+    gap: 7px;
+}
+.nav{
+    height: 70px;
+  position: fixed;
+  top: 0;            
+  left: 0;
+  width: 100%;     
+  background: #fff;  
+  z-index: 1000;     
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+.cont .logo a img{
+    width: 181px;
+}
+.cont .menu ul li a{
+    font-family: "Red Hat Text", sans-serif;
+    font-size: 18px;
+    color: rgb(48, 48, 48);
+    position: relative;
+    display: inline-block;
+      transition: width .48s ease;  
+}
+.cont .menu ul li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;           
+  height: 2px;
+  width: 0;               
+  background: currentColor;
+  transition: width .48s ease;  
+  color: #e3f165;
+}
+
+.cont .menu ul li a:hover::after,
+.cont .menu ul li a:focus-visible::after,
+.cont .menu ul li a.active::after {
+  width: 100%;
+}
+.cont{
+    margin-top: 10px;
+}
+.cont .contact button{
+    min-width: 160px;
+    min-height: 45px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    border-radius: 25px;
+    border: none;
+    background-color: #BCCF17;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 28px;
+    padding-right: 28px;
+    line-height: 1;
+    font-size: 1.2rem;
+    color: white;
+    font-family: "Red Hat Text", sans-serif;
+    transition: 0.8s;
+    cursor: pointer;
+}
+.cont .contact button:hover{
+    background-color: white;
+    border: solid 1px #7b8808;
+    color: black;
+    transition: 0.8s;
+}
+.cont1{
+    height: 650px;
+}
+.nav1{
+    background-image: url('../images/doff.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; 
+  background-origin: border-box;
+}
+.cont1{
+    h1{
+        padding-top: 100px;
+        width: 700px;
+        font-size: 48px;
+        color: white;
+        font-family: "Red Hat Text", sans-serif;
+        text-align: center;
+    }
+}
+.cont2{
+    margin-top: 160px;
+    margin-bottom: 160px;
+    h2{
+        font-size: 4rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: #078585;
+        text-align: center;
+    }
+    p{
+        font-size: 1.5rem;
+        font-family: "Red Hat Text", sans-serif;
+        color: gray;
+        text-align: center;
+        padding-left: 250px;
+        padding-right: 250px;
+    }
+}
+.m-cont{
+    max-width: 1519px;
+    padding-left: 150px;    
+    padding-right: 10px;
+    margin: 0 auto;
+}
+.cont3{
+    .bolm{
+        width: 45%;
+        h2{
+            font-size: 4rem;
+            color: #078585;
+            font-family: "Red Hat Text", sans-serif;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        p{
+            font-size: 1.5rem;
+            color: gray;
+            font-family: "Red Hat Text", sans-serif;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        button{
+                display: inline-block;
+                vertical-align: middle;
+                padding-left: 28px;
+                padding-right: 28px;
+                line-height: 1;
+                font-size: 1.1rem;
+                font-family: Raleway, sans-serif;
+                font-weight: 700;
+                text-align: center !important;
+                text-decoration: none !important;
+                text-shadow: none !important;
+                text-transform: uppercase;
+                letter-spacing: 0;
+                height: 50px;
+                border: none;
+                border-radius: 25px;
+                background-color: #BCCF17;
+                color: white;
+                margin-bottom: 20px;
+                cursor: pointer;
+        }
+        button:hover{
+            background-color: #acb749;
+        }
+    }
+}
+.bolm2{
+    width: 70%;
+    .ser1{
+        position: relative;
+        position: relative;
+        width: 380px;
+        height: 300px;
+        border-radius: 10%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;       
+            display: block;
+        }
+    }
+    .ser{
+        position: relative;
+        position: relative;
+        width: 380px;
+        height: 300px;
+        border-radius: 10%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;       
+            display: block;
+        }
+    }
+    .over{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .over:hover{
+            background: rgba(25, 27, 40, 0.4);
+        }
+
+        .over h2 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Red Hat Text", sans-serif;
+
+        }
+}
+.s-cont{
+    max-width: 1519px;
+    padding-left: 10px;    
+    padding-right: 10px;
+    margin: 0 auto;
+    .ser1{
+        position: relative;
+        position: relative;
+        width: 380px;
+        height: 300px;
+        border-radius: 10%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;       
+            display: block;
+        }
+    }
+    .ser{
+        position: relative;
+        position: relative;
+        width: 380px;
+        height: 300px;
+        border-radius: 10%;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;       
+            display: block;
+        }
+    }
+    .over{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+        .over:hover{
+            background: rgba(25, 27, 40, 0.4);
+        }
+
+        .over h2 {
+        color: #fff;
+        font-size: 28px;
+        font-weight: bold;
+        text-align: center;
+        font-family: "Red Hat Text", sans-serif;
+
+        }
+        .ser2{
+        position: relative;
+        position: relative;
+        width: 700px;
+        height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;       
+            display: block;
+        }
+        
+    }
+    .ser3{
+        position: relative;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        border-radius: 15px;
+        overflow: hidden;
+        margin-bottom: 20px;
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;       
+            display: block;
+        }
+        
+    }
+}
+.cont5{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    h3{
+        background: linear-gradient(0deg,rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 10rem;
+        font-weight: bold;
+        text-align: center;
+                font-family: "Red Hat Text", sans-serif;
+
+    }
+}
+.cont6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 2100px;
+    width: 80%;
+    background-color: #fff;
+    border-radius: 25px;
+}
+.ss{
+    background: #029CA2;
+    align-items: center;
+    display: flex;  
+    justify-content: center;
+    margin-top: 100px;
+}
+.yozuv{
+     text-align: center;
+     padding-top: 70px;
+     padding-left: 200px;
+     padding-right: 200px;
+    h4{
+            color: #078585;
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+            transition: color .3s ease-in-out;
+            font-family: "Red Hat Text", sans-serif;
+    }
+    p{
+        color:#b3b3b3;
+        font-size: 1.4rem;
+        font-weight: 600;
+                    font-family: "Red Hat Text", sans-serif;
+
+    }
+}
+.cont6 a{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center; 
+    align-items: center;
+    justify-content: center;
+    img{
+        width: 300px;
+    }
+}
+.cont7{
+    margin-top: 80px; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 50px;
+    .rte{
+        width: 50%;
+        h2{
+            padding-right: 200px;
+            padding-bottom: 30px;
+            color: #078585;
+            font-size: 3rem;
+            font-family: "Red Hat Text", sans-serif;
+
+        }
+        p{
+            color: #555;
+            font-size: 20px;
+            margin-bottom: 20px;
+            font-family: "Red Hat Text", sans-serif;
+            padding-right: 90px;
+        }
+        button{
+            display: inline-block;
+      background: #a6d20b;
+      color: #fff;
+      padding: 15px 35px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+      font-size: 15px;
+      border: none;
+        font-family: "Red Hat Text", sans-serif;
+
+        }    
+        button:hover{
+            background: #8db70a;
+        }
+    }
+        
+    }
+
+.slider {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .arrow {
+      width: 40px;
+      height: 40px;
+      border: 2px solid #2ecc71;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #2ecc71;
+      font-size: 20px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+
+    .arrow:hover {
+      background: #2ecc71;
+      color: #fff;
+      transform: scale(1.1);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 20px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+      overflow: hidden;
+      width: 350px;
+      position: relative;
+      text-align: center;
+      font-family: "Red Hat Text", sans-serif;
+      transition: 0.8s;
+    }
+    .card:hover{
+        box-shadow: 0 4px 15px rgba(170, 182, 0, 0.964);
+        transition: 0.8s;
+        }
+    .date {
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      background: #c2e81b;
+      color: #fff;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 8px;
+      font-size: 14px;
+      text-align: center;
+      line-height: 1.2;
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .content h3 {
+      color: #029CA2;
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    .content p {
+      color: #555;
+      font-size: 14px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+    }
+
+    .btn {
+      display: inline-block;
+      background: #a6d20b;
+      color: #fff;
+      padding: 10px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #8db70a;
+    }
+
+.nav7{
+    background-color: #333333;
+    margin-top: 140px;
+}
+.cont8{
+    .kre{
+        text-align: center;
+              font-family: "Red Hat Text", sans-serif;
+
+        h3{
+            padding-top: 80px;
+                color: #fff;
+                font-size: 3rem;
+        }
+        p{
+            font-size: 1.4rem;
+    font-weight: 300;
+    color: #b3b3b3;
+    padding-top: 30px   ;
+    padding-left: 350px;
+    padding-right: 350px;
+        }
+        
+    }    
+}
+ .contact-form {
+      width: 900px;
+    }
+
+    .contact-form label {
+      display: block;
+      margin: 15px 0 5px;
+      font-size: 14px;
+      color: #ffffff;
+      padding-top: 30px;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      background: transparent;
+      border: none;
+      border-bottom: 1px solid #999;
+      padding: 10px;
+      font-size: 16px;
+      color: #fff;
+      outline: none;
+    }
+
+    .row {
+      display: flex;
+      gap: 50px;
+    }
+
+    .row .field {
+      flex: 1;
+    }
+
+    .contact-form textarea {
+      resize: none;
+      height: 100px;
+      border: none;
+      border-bottom: 1px solid #999;
+    }
+
+    .contact-form button {
+      margin-top: 30px;
+      width: 100%;
+      padding: 15px;
+      border: 2px solid #c6ff00;
+      border-radius: 50px;
+      background: transparent;
+      color: #fff;
+      font-size: 14px;
+      font-weight: bold;
+      letter-spacing: 1px;
+      cursor: pointer;
+      transition: 0.3s;
+      margin-bottom: 100px;
+    }
+
+    .contact-form button:hover {
+      background: #c6ff00;
+      color: #000;
+    }
+.ino{
+        font-family: "Red Hat Text", sans-serif;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        margin-top: 100px;
+}
+    .map-section {
+      width: 100%;
+    }
+
+    .map {
+      width: 100%;
+      height: 320px;
+      border: none;
+      border-radius: 10px;
+    }
+.cont10{
+    .alohida{
+        width: 50%;
+    }
+            font-family: "Red Hat Text", sans-serif;
+
+    margin-top: 50px;
+    .logo a img{
+    width: 181px;
+    }
+    .tad p , span{
+        padding-top: 15px;
+    font-size: 14px;
+      margin: 5px 0;
+      color: #555;
+      padding-right: 140px  ;
+    }
+    .tad a {
+        padding-top: 15px;
+      margin: 5px 0;
+      color: #555;
+      text-decoration: underline;
+    }
+} 
+.right{
+    i{
+        font-size: 25px;
+        color: #555;
+        cursor: pointer;
+    }
+}
+.cont11{
+    margin-top: 30px;
+    margin-bottom: 49px;
+    p{
+                        font-family: "Red Hat Text", sans-serif;
+
+     font-size: 14px;
+      margin: 5px 0;
+      color: #555;
+    }
+}
+/* ========== RESPONSIVE DESIGN ========== */
+
+@media (max-width: 1385px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .cont{
+        .menu ul {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr); /* 3 ustun */
+            gap: 15px;
+            text-align: center;
+        }
+    }
+    .cont3{
+        .bolm h2{
+            font-size: 3rem;
+        }
+        .bolm p{
+            font-size: 1.5rem;
+        }
+        .bolm2{
+            display: flex;
+            justify-content: center;
+            gap:20px;
+            .ser , .ser1{
+                width: 250px;
+                height: 200px;
+            }
+        }
+
+    }
+    .nomi{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    .ser , .ser1 {
+                width: 250px;
+                height: 200px;
+        font-size: 10px !important;
+    }
+    .ser2{
+        width: 380px;
+        height: 200px;
+    }
+}
+.nomi2{
+    display: flex;
+    justify-content: center;
+    .ser3{
+        width: 71%;
+        height: 250px;
+    }
+}
+.cont5 h3{
+    font-size: 4.5rem;
+}
+.cont6{
+    height: 1600px;
+}
+.cont6 a img {
+    width: 200px;
+}
+
+}
+
+@media (max-width: 1025px) {
+    .container{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .cont{
+        .menu ul {
+          display: none;
+        }
+    }
+    .cont3{
+        .bolm h2{
+            font-size: 2rem;
+        }
+        .bolm p{
+            font-size: 1rem;
+        }
+        .bolm2{
+            display: flex;
+            justify-content: center;
+            gap:15px;
+            .ser , .ser1{
+                width: 200px;
+                height: 150px;
+            }
+        }
+
+    }
+    .nomi{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    .ser , .ser1 {
+                width: 200px;
+                height: 150px;
+        font-size: 10px !important;
+    }
+    .ser2{
+        width: 280px;
+        height: 150px;
+    }
+}
+.nomi2{
+    display: flex;
+    justify-content: center;
+    .ser3{
+        width: 71%;
+        height: 200px;
+    }
+}
+.cont5 h3{
+    font-size: 2.2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.cont6{
+    height: 1400px;
+}
+.cont6 a img {
+    width: 160px;
+}
+.cont1 h1{
+    font-size: 2rem;
+}
+.cont3 .bolm button{
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 30px;
+    font-size: 10px;
+}
+.bolm2 .over h2 ,.s-cont .over h2{
+    font-size: 15px;
+}
+.yozuv h4 {
+        font-size: 2rem;
+}
+.yozuv p {
+        font-size: 1rem;
+}
+.cont7{
+    flex-direction: column; 
+    gap: 50px;
+}
+
+.cont7 .rte h2{
+    font-size: 2rem;
+}
+.cont7 .rte p{
+    font-size: 1rem
+}
+.cont7 .rte button{
+    padding: 8px 15px; 
+    font-size: 12px;
+}
+.cont8 .kre p {
+    font-size: 1rem;
+}
+.cont10 .tad p{
+    padding-right: 5px;
+}
+.cont2 p{
+    padding-left: 150px;
+    padding-right: 150px;
+}
+}
+
+@media (max-width: 875px){
+    .m-cont{
+        padding-left: 10px;
+    }
+    .cont3{
+        flex-direction: column;
+        .bolm{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        }
+        .bolm2{
+            display: none;
+        }
+    }
+    .cont6 .yozuv{
+        padding-left: 100px;
+        padding-right: 100px;
+
+    }
+    .cont2{
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+.cont2 h2 {
+    font-size: 2rem;
+}
+.cont2 p {
+    font-size: 1rem;
+}
+.cont7 .rte {
+    h2{
+        padding-right: 1px;
+    }
+    p{
+        padding-right: 1px;
+    }
+    text-align: center;
+}
+.cont8 .kre p{
+    padding-right: 1px;
+    padding-left: 1px;
+}
+}
