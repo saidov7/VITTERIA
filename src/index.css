@@ -870,6 +870,23 @@ body {
   }
 }
 @media (max-width: 875px) {
+  .cont6 .yozuv {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .cont10 .tad p, .cont10 span {
+    padding-top: 15px;
+    font-size: 7px;
+    margin: 5px 0;
+    color: #555;
+    padding-right: 15px;
+  }
+  .cont10 .tad a {
+    font-size: 7px;
+  }
+  .cont10 .logo a img {
+    width: 120px;
+  }
   .m-cont {
     padding-left: 10px;
   }
@@ -910,5 +927,103 @@ body {
   .cont8 .kre p {
     padding-right: 1px;
     padding-left: 1px;
+  }
+}
+@media (max-width: 675px) {
+  .contact-form {
+    width: 400px;
+  }
+  .s-cont {
+    display: none;
+  }
+  .cont1 h1 {
+    font-size: 1.3rem;
+    display: none;
+  }
+  .cont6 {
+    height: 1100px;
+  }
+  .cont6 .yozuv p {
+    font-size: 0.8rem;
+  }
+  .cont6 a img {
+    width: 110px;
+  }
+  .contact-form {
+    width: 600px;
+  }
+  .cont10 .tad p, .cont10 span {
+    padding-top: 15px;
+    font-size: 7px;
+    margin: 5px 0;
+    color: #555;
+    padding-right: 15px;
+  }
+  .cont10 .tad a {
+    font-size: 7px;
+  }
+  .cont10 .logo a img {
+    width: 120px;
+  }
+}
+@media (max-width: 475px) {
+  .contact-form {
+    width: 300px;
+  }
+  .cont5 h3 {
+    font-size: 1.5rem;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+  .cont6 {
+    height: 800px;
+  }
+  .cont6 a img {
+    width: 80px;
+  }
+  .cont1 h1 {
+    font-size: 2rem;
+  }
+  .cont3 .bolm button {
+    padding-left: 18px;
+    padding-right: 18px;
+    height: 30px;
+    font-size: 10px;
+  }
+  .bolm2 .over h2, .s-cont .over h2 {
+    font-size: 15px;
+  }
+  .yozuv h4 {
+    font-size: 1rem;
+  }
+  .yozuv p {
+    font-size: 0.5rem !important;
+  }
+  .cont7 {
+    flex-direction: column;
+    gap: 50px;
+  }
+  .cont7 .rte h2 {
+    font-size: 2rem;
+  }
+  .cont7 .rte p {
+    font-size: 1rem;
+  }
+  .cont7 .rte button {
+    padding: 8px 15px;
+    font-size: 12px;
+  }
+  .cont8 .kre p {
+    font-size: 1rem;
+  }
+  .cont10 .tad p {
+    padding-right: 5px;
+  }
+  .cont2 p {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .cont3 .bolm h2 {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=index.css.map */
