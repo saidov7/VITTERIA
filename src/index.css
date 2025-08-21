@@ -1026,4 +1026,35 @@ body {
   .cont3 .bolm h2 {
     font-size: 1rem;
   }
+}
+.cont1 p {
+  font-size: 1.7rem;
+  font-weight: 400;
+  font-family: "Red Hat Text", sans-serif;
+  color: white;
+}
+
+.yoni img {
+  width: 600px;
+}
+.yoni .tep img {
+  width: 292px;
+  height: 220px;
+}
+
+.boshi {
+  width: 50%;
+}
+.boshi h2 {
+  margin-top: 0;
+  font-size: 3.5rem;
+  font-family: "Red Hat Text", sans-serif;
+  color: #029CA2;
+}
+.boshi p {
+  padding-right: 60px;
+  text-align: justify;
+  font-size: 1.3rem;
+  color: gray;
+  font-family: "Red Hat Text", sans-serif;
 }/*# sourceMappingURL=index.css.map */
